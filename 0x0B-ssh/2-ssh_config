@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #!/usr/bin/env bash
 # SSH client configuration
 
@@ -9,3 +10,9 @@ Host *
     GSSAPIAuthentication yes
     GSSAPIDelegateCredentials no
 
+=======
+# ssh config file
+Host *
+      PasswordAuthentication no
+      IdentifyFile ~/.ssh/school
+>>>>>>> 73e795a1ce6157b8ab16a0a9c1d4fa756476b529

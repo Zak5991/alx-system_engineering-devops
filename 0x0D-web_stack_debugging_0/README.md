@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 0x0D Web stack debugging #0 :wrench:
 
 > Debugging is the process of finding and fixing errors in software that prevents it from running correctly. As you become a more advanced programmer and an industry engineer, you will learn how to use debugging tools such as gdb or built-in tools that IDEs have. However, it’s important to understand the concepts and processes of debugging manually. This project covers the optimal framework and blueprint for debugging web stack (remote containers this scenario) bugs
@@ -53,3 +54,18 @@ MUST SHOW REPLY FROM SERVER
 $ service apache2 start
 
 $ curl localhost
+=======
+# Web stack debugging #0
+
+This was the first in a series of web stack debugging projects. In these
+projects, I was given broken/bugged webstacks in isolated containers,
+and tasked with fixing the web stack to a working state. For each
+task, I wrote a script automating the commands necessary to fix the
+web stack.
+
+## Tasks :page_with_curl:
+
+* **0. Give me a page!**
+  * [0-give_me_a_page](./0-give_me_a_page): Bash script that runs Apache on a
+  web server and gets it to respond to queries to the root.
+>>>>>>> 73e795a1ce6157b8ab16a0a9c1d4fa756476b529
